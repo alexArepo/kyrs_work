@@ -2,9 +2,10 @@
 #define TELEGRAMNEWSBOT_H
 
 #include <tgbot/tgbot.h>
+#include <curl/curl.h>
+
 #include <vector>
 #include <string>
-#include <curl/curl.h>
 #include <atomic>
 
 class TelegramNewsBot {

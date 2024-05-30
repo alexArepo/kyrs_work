@@ -1,4 +1,5 @@
 #include "TelegramNewsBot.h"
+
 #include <gtest/gtest.h>
 #include <string>
 #include <vector>
@@ -52,9 +53,3 @@ TEST_F(TelegramNewsBotTest, FetchNewsBusiness) {
   EXPECT_EQ(news[1], "Business News 2");
 }
 
-
-/*int main(int argc, char** argv) {
-  ::testing::InitGoogleTest(&argc, argv);
-  return RUN_ALL_TESTS();
-}
-*/
