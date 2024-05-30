@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -22,6 +22,7 @@
     <ClInclude Include="TelegramNewsBot.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\try_33_test_bot\test.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="TelegramNewsBot.cpp" />
   </ItemGroup>
@@ -111,6 +112,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>A:\repo_new_proj\Unit1_try33;A:\repo_new_proj\unit_33_test;A:\repo_new_proj\try33;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
