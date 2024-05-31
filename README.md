@@ -8,7 +8,9 @@
 Добавить возможность выбора новостей по категориям.
 Реализовать взаимодействие не только через команды, но и через кнопки под сообщениями.
 Провести тестирование на соответствие категории запрашиваемой новости.
-    
+
+Сборка происходит в Visual studio (MSVC), внешние зависимости - gtest, json, cutl, tgbot-cpp
+
 System Context diagram: 
 
 ![alt text](https://i.postimg.cc/43zFn2Dt/4-1.png)
@@ -16,6 +18,7 @@ System Context diagram:
 Container diagram:
 
 ![alt text](https://i.postimg.cc/1X6KY8yF/4-2.png)
+
 
 
 
